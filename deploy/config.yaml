@@ -5,8 +5,8 @@ metadata:
     kasten.io/config: dataservice
   name: dbconfig
 data:
-  dataservice.type: postgres
-  postgres.manager: awsrds
+  postgres.instanceid: testinstance
+  postgres.vpcsgid: sg-xxxxyyyyyzzzzz
   postgres.host: testinstance.example.us-west-2.rds.amazonaws.com
   postgres.databases: mypgsqldb
   postgres.user: postgres
